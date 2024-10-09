@@ -10,6 +10,7 @@ jQuery(document).ready(function($) {
         social: "list social networks",
         community: "list community contributions",
         opensource: "list open source contributions",
+        source: "May the source be with you",
         {{ if .Site.Params.certifications }} 
             certifications: "list certifications",
         {{ end }}
@@ -184,9 +185,6 @@ jQuery(document).ready(function($) {
         social(),
         certifications,
         community,
-        {{ if .Site.Params.source }}
-        source,
-        {{ end }}
     ];
 
     $('body').terminal(function(command, term) {

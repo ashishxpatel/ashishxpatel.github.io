@@ -1,7 +1,7 @@
 ## Example Config file
 baseURL: "https://ashishxpatel.github.io"
 theme: "terminalcv"
-title: "hello"
+title: "~ashish"
 
 params:
   version: '2.0.0'
@@ -101,7 +101,7 @@ params:
       date: "07-2022"
     - projectName: "Heroku Guardian - CLI Checks for Heroku deployments"
       description: "https://github.com/heroku/heroku-guardian"
-      date: "06-2022"
+      date: "01-2022"
  
 
   certifications:
