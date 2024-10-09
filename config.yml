@@ -1,0 +1,120 @@
+## Example Config file
+baseURL: "https://ashishxpatel.github.io"
+theme: "terminalcv"
+title: "terminalcv"
+
+params:
+  version: '2.0.0'
+  description: "My terminal bio"
+  prompt:
+    core:
+      text: "you@mybio"
+      color: 'pink'
+      before: '['
+      beforeColor: 'red'
+      after: '\]'
+      afterColor: 'red'
+      # separator: '-'
+    separator:
+      text: "-"
+      # color: 
+    path: 
+      before: '['
+      beforeColor: 'red'
+      text: '~/'
+      color: 'blue'
+      after: '\]'
+      afterColor: 'red'
+    extra:
+      text: ": "
+      color: 'orange'
+
+  # promptColor: grey
+  # promptSimbols: ":~$"
+  # promptSimbolsColor: grey
+  # startxLocation: https://example.com
+  # useLess: true
+  exitLocation: 'about:blank'
+  source: true
+  #use a ‎ (blank character) if your first character of the ascii art is a whitespace
+  greeting: | 
+    ‎ _   _      _ _
+    | | | |    | | |
+    | |_| | ___| | | ___
+    |  _  |/ _ \ | |/ _ \
+    | | | |  __/ | | (_) |
+    \_| |_/\___|_|_|\___/
+
+    Welcome to my bio
+
+    Type 'help' for a list of available commands
+
+
+  whois: 
+    # settings:
+    #   useLess: true
+    details:
+      name: "Ashish Patel"
+      profession: "Security Engineer"
+      location: "SF"
+      description: |
+              👋 Hi! I'm a security engineer with over seven years of experience in building and securing scalable cloud infrastructure. My focus is on shifting security left, integrating automated guardrails, and catching risks early in the development process. I bring technical skills in cloud security, IAM, Kubernetes, Terraform, and Python, and I enjoy developing tools that proactively detect and mitigate threats. I’m also passionate about giving back to the security community — whether it's presenting at DEFCON and BSides, mentoring others, or supporting hands-on challenges that encourage innovative approaches in cybersecurity.
+
+  social:
+    # settings:
+    #   useLess: true
+    #   hideName: true
+    details:
+    - name: "github"
+      url: "https://github.com/ashishxpatel"
+    - name: "twitter"
+      url: "https://twitter.com/_ashishpatel"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/ashishpatel0"
+
+
+  community: 
+    # settings:
+    #   useLess: true
+    commandName: community
+    details:
+    - contributionName: "Enabling Security Guardrails: Infra as Code with CDK for Terraform"
+      description: "https://engineering.ziphq.com/enabling-security-guardrails-infra-as-code-with-cdk-for-terraform/"
+      date: "06-2024"
+    - contributionName: "DefCon 2023 - Cloud Village Volunteer, CTF Infra Team"
+      description: "https://dc31.cloud-village.org/"
+      date: "08-2023"
+    - contributionName: "BSides SF 2022 - Metabadger: Automating IMDS Protection at Scale in AWS"
+      description: "https://bsidessf2022.sched.com/event/rjrI/metabadger-automating-imds-protection-at-scale-in-aws"
+      date: "06-2022"
+    - contributionName: "BSides SF 2020 Workshop - If This Then Hack: An Intro to DIY Cloud Security Automation with Python"
+      description: "https://bsidessf2020.sched.com/event/Ybjr/if-this-then-hack-an-intro-to-diy-cloud-security-automation-with-python"
+      date: "02-2020"
+
+  opensource: 
+    # settings:
+    #   useLess: true
+    commandName: opensource
+    details:
+    - projectName: "Metabadger - AWS Security Tool to prevent IMDSv1 attacks"
+      description: "https://github.com/salesforce/metabadger"
+      date: "07-2022"
+    - projectName: "Heroku Guardian - CLI Checks for Heroku deployments"
+      description: "https://github.com/heroku/heroku-guardian"
+      date: "06-2022"
+ 
+
+  certifications:
+    # settings:
+    #   useLess: true
+    details:
+    - certName: AWS Certified Security - Speciality
+      company: AWS
+    - certName: GCP - Certified Professional Cloud Security Engineer
+      company: GCP
+    - certName: GWEB - Certified Web Application Defender
+      company: SANS
+    - certName: GCSA - Cloud Security Automation
+      company: SANS
+  
+  
