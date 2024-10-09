@@ -7,6 +7,7 @@
     <meta property="og:title" content="{{ $.Site.Title }}" />
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="{{ $.Site.BaseURL }}" />
+    <meta property="og:image" content="{{"/static/preview-image.png" | absURL }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href=""/>
     <link rel="canonical" href="{{ .Permalink }}" />
     {{- partial "favicons.html" . }}

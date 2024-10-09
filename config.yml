@@ -5,6 +5,7 @@ title: "~ashish"
 
 params:
   version: '2.0.0'
+  ogimage: 'preview-image.png'
   description: "my bio"
   prompt:
     core:
