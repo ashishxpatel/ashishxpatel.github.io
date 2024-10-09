@@ -205,6 +205,23 @@ jQuery(document).ready(function($) {
             }
         }
 
+        //Function used by StartX to draw the progressBar
+        function progress(percent, width) {
+            var size = Math.round(width*percent/100);
+            var left = '', taken = '', i;
+            for (i=size; i--;) {
+                taken += '=';
+            }
+            if (taken.length > 0) {
+                taken = taken.replace(/=$/, '>');
+            }
+            for (i=width-size; i--;) {
+                left += ' ';
+            }
+            return '[' + taken + left + '] ' + percent + '%';
+        }
+
+
         function loading() {
             var i = 0, size = 30;
             prompt = term.get_prompt();
