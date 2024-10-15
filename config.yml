@@ -59,18 +59,18 @@ params:
       profession: "Security Engineer"
       location: "SF"
       description: |
-              👋 Hi! I'm a security engineer with over seven years of experience in building and securing scalable cloud infrastructure. My focus is on shifting security left, integrating automated guardrails, and catching risks early in the development process. I bring technical skills in cloud security, IAM, Kubernetes, Terraform, and Python, and I enjoy developing tools that proactively detect and mitigate threats. I’m also passionate about giving back to the security community — whether it's presenting at DEFCON and BSides, mentoring others, or supporting hands-on challenges that encourage innovative approaches in cybersecurity.
+              👋 Hi! I'm a security engineer with over seven years of experience in building and securing scalable cloud infrastructure. My focus is on shifting security left, integrating automated guardrails, and catching risks early in the development process. I bring technical skills in cloud security, IAM, Kubernetes, IaC, and Python, and I enjoy building tools that proactively mitigate threats. I’m also passionate about giving back to the security community — whether it's contributing to DEFCON or BSides, mentoring others, or supporting hands-on challenges that encourage innovative approaches in cybersecurity.
 
   social:
     # settings:
     #   useLess: true
     #   hideName: true
     details:
-    - name: "github"
+    - name: "Github"
       url: "https://github.com/ashishxpatel"
-    - name: "twitter"
+    - name: "Twitter"
       url: "https://twitter.com/_ashishpatel"
-    - name: "linkedin"
+    - name: "LinkedIn"
       url: "https://www.linkedin.com/in/ashishpatel0"
 
 
@@ -82,7 +82,7 @@ params:
     - contributionName: "Enabling Security Guardrails: Infra as Code with CDK for Terraform"
       description: "https://engineering.ziphq.com/enabling-security-guardrails-infra-as-code-with-cdk-for-terraform/"
       date: "06-2024"
-    - contributionName: "DefCon 2023 - Cloud Village Volunteer, CTF Infra Team"
+    - contributionName: "DefCon 2023 - Cloud Village Volunteer, CTF Builder"
       description: "https://dc31.cloud-village.org/"
       date: "08-2023"
     - contributionName: "BSides SF 2022 - Metabadger: Automating IMDS Protection at Scale in AWS"
@@ -110,12 +110,16 @@ params:
     #   useLess: true
     details:
     - certName: AWS Certified Security - Speciality
+      date: 12-2020
       company: AWS
     - certName: GCP - Certified Professional Cloud Security Engineer
+      date: 11-2019
       company: GCP
     - certName: GWEB - Certified Web Application Defender
+      date: 08-2021
       company: SANS
     - certName: GCSA - Cloud Security Automation
+      date: 09-2020
       company: SANS
   
   

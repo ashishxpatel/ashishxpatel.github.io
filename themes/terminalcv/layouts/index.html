@@ -5,12 +5,12 @@ jQuery(document).ready(function($) {
 
     var commands = {
         help: "shows help",
-        less: "Use less as output method",
+        less: "use less as output method",
         whois: "list basic details",
         social: "list social networks",
         community: "list community contributions",
         opensource: "list open source contributions",
-        source: "May the source be with you",
+        source: "may the source be with you",
         {{ if .Site.Params.certifications }} 
             certifications: "list certifications",
         {{ end }}
@@ -134,32 +134,11 @@ jQuery(document).ready(function($) {
             {{ range . }}
                 '---\n' +
                 '[[b;{{ .color | default "grey" }};]{{ .certName }}]\n' +
-                '{{ .date }}\n' +
                 {{ if .company }}
                 '{{ .company }}\n' +
                 {{ end }}
-                {{ if .description }}
-                '{{ .description }}\n' +
-                {{ end }}
-                {{ if .badge }}
-                'Badge: \t{{ .badge }}\n' +
-                {{ end }}
-                '\r',
-            {{ end }}
-        {{ end }}
-    ];
-
-    var certifications = [
-        {{ with .Site.Params.certifications.details }}
-            {{ range . }}
-                '---\n' +
-                '[[b;{{ .color | default "grey" }};]{{ .certName }}]\n' +
+                {{ if .date }}
                 '{{ .date }}\n' +
-                {{ if .company }}
-                '{{ .company }}\n' +
-                {{ end }}
-                {{ if .description }}
-                '{{ .description }}\n' +
                 {{ end }}
                 {{ if .badge }}
                 'Badge: \t{{ .badge }}\n' +
@@ -177,7 +156,7 @@ jQuery(document).ready(function($) {
     ];
 
     var source = 
-        '[[;red;]May the source be with you]\n' +
+        '[[;red;]may the source be with you]\n' +
         '[[;grey;]https://github.com/coolapso/hugo-theme-terminalcv\n';
 
     var all = [ 
